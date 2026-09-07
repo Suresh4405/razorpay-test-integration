@@ -19,14 +19,11 @@ export default function HomePage() {
         <div className="grid items-center gap-10 lg:grid-cols-[1.1fr,0.9fr]">
           <div className="max-w-xl">
             <h1 className="font-display text-[2.5rem] leading-[1.08] text-ink sm:text-[3.4rem]">
-              Four shelves, chosen with care.
+           Great Books Deserve Great Code
             </h1>
             <p className="mt-5 max-w-md text-[15px] leading-relaxed text-stone sm:text-base">
-              QuickPayBooks keeps a small catalogue on purpose — fiction, science,
-              folktales and mystery, ten titles each, picked rather than
-              piled high. Everything ships with a straightforward checkout
-              and a test-mode payment, so you can order without spending a
-              rupee.
+             
+              QuickPayBooks is a Next.js 14 e-commerce demonstration featuring a curated inventory of 40 books across 4 genres - fiction, science, folktales, and mystery. The platform implements a full payment workflow using Razorpay's test mode, complete with order creation, payment intent generation, and webhook handling — all without processing real transactions.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <a
